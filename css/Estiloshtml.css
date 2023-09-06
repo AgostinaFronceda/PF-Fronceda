@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62,5%;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rufina', serif;
+    background: rgb(173, 216, 230); /* Azul suave para la paz */
+background: linear-gradient(90deg, rgb(173, 216, 230) 0%, rgb(144, 238, 144) 50%, rgb(60, 179, 113) 100%);
+}
+
+/* header {
+        background-image: url(../img/imageheader.jpeg); 
+        background-position:center;
+        height: 100%;
+        width: 100%;
+} */
+
+/* 
+.headerimage {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 100px;
+} */
+
+/*  text decoration: none para que no aparezca subrayado */
+.header{
+background: linear-gradient(90deg, rgb(123, 181, 204) 0%, rgb(85, 204, 102) 50%, rgb(36, 130, 82) 100%);
+border: 1px solid black;    
+text-align: center; 
+height: 100%;
+width: 100%;
+padding: 10px;
+justify-content:space;
+}
+
+.div.container-fluid {
+    justify-content: space-evenly;
+    align-items: space-evenly;
+
+}
+
+.ul {
+    height: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+
+.li{
+    list-style: none;
+    color: black;
+}
+
+.a{
+        color:black ;
+        text-decoration: none;
+        margin: 0 10px; 
+        font-size: 1rem;
+}
+
+.h1{
+    text-align: center;
+    color: black;
+    font-size: 7rem;
+}
+
+.h2{
+    color: black;
+    font-size: 2rem;
+}
+
+.introduccion{
+    justify-content:center;
+    padding: 20px;
+    font-size: 20px;
+    padding-top: 100px;
+    padding-bottom:50px ;
+
+}
+/* 
+.imagen {
+    width: 40%;
+    height: 40%;
+    margin-right:5px;
+    margin-top: 20px;
+} */
+
+.p {
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+    height: 100%;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+.whatsapp img {
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.texto_informacion{
+    text-align: center;
+    font-size: 3rem;
+    background-color: beige;
+}
+
+.articulos {
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+}
+
+.imagenSeparacion {
+    height: 40%;
+    width: 40%;
+
+}
+.footer p,li,h2{
+    color: black;
+    text-align: left;
+    line-height: 40px
+}
+
+footer{
+    margin-top: 80px;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(83, 33, 116);
+}
+
+.logoig{
+    height: 100%;
+    width: 100%;
+}
+
+.containerinst {
+    height: 40px;
+    width: 40px;
+}
+
+.logofb {
+    height: 60x;
+    width: 60px;
+}
+
+.logox{
+    height: 40px;
+    width: 40px;
+    
+    
+}
+/* .nueces{
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+} */
+
+/* PAGINA 2  */
+.grid-layout {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 80%;
+    margin: 0 auto;
+    background-color: pink;
+    padding: 15px;
+    border: 1px solid black;
+}
+
+.productostexto{
+    font-size: 3rem;
+}
+
+.productos {
+    width: 250px;
+    height: 250px;
+    border: 4px solid black;
+    background-color: grey;
+    margin: 15px;
+    text-align: center;
+    line-height: 250px;
+}
+
+.P1 {
+    height: 250px;
+    width: 250px;
+}
+
+.P2 {
+    height: 250px;
+    width: 250px;
+}
+
+.P3 {
+    height: 250px;
+    width: 250px;
+}
+
+.navcolor{
+
+    background: rgb(173, 216, 230); /* Azul suave para la paz */
+    background: linear-gradient(90deg, rgb(173, 216, 230) 0%, rgb(144, 238, 144) 50%, rgb(60, 179, 113) 100%);
+}
+
+/* PAGINA 3  */
+
+
