@@ -26,16 +26,21 @@ background: linear-gradient(90deg, rgb(173, 216, 230) 0%, rgb(144, 238, 144) 50%
 } */
 
 /*  text decoration: none para que no aparezca subrayado */
-.header{
+.navbar-expand-lg{
 background: linear-gradient(90deg, rgb(123, 181, 204) 0%, rgb(85, 204, 102) 50%, rgb(36, 130, 82) 100%);
 border: 1px solid black;    
-text-align: center; 
 height: 100%;
 width: 100%;
 padding: 10px;
-justify-content:space;
+text-align: center;
+justify-content:space-around;
 }
+.collapse navbar-collapse {
+    text-align: center;
+    justify-content:space-around;
+    align-items: space-evenly;
 
+  }
 .div.container-fluid {
     justify-content: space-evenly;
     align-items: space-evenly;
