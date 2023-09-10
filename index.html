@@ -12,9 +12,13 @@
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <!-- main Css -->
-    <link rel="stylesheet" href="./css/Estiloshtml.css">
+    <link rel="stylesheet" href="./css/estilosHtml.css">
 </head>
-<!-- en el body va header(nav,ul,li),main,footer -->
+
+<!-- en el body va header(nav,ul,li),main,footer
+git branch -M main
+git remote add origin https://github.com/AgostinaFronceda/PreEntrega2-Fronceda-CH.git
+git push -u origin main -->
 <body>
     <header class="header">
         <nav class="navbar navbar-expand-lg" class="navcolor">
@@ -47,8 +51,38 @@
             <div class="introduccion">
                 <h1>Transforma tu salud</h1>
             </div>
-            <p class="p">Descubre el poder de una dieta equilibrada y alcanza tus objetivos con nuestros productos</p>
-           
+            <div class="pe">
+            <p>Descubre el poder de una dieta equilibrada y alcanza tus objetivos con nuestros productos</p>
+          </div>
+          <div id="carouselExampleFade" class="carousel slide carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/imageheader.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/imagen2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/imagenSeparacion.webp" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <section class="Informacionsection">
+              <h2 class="texto_informacion">Información</h2>
+              <article  class="articulos">
+                  <h3 class="articulos1 "></h3>
+                  </div>
+              </article>
+          </section>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
             <div class="whatsapp">
                 <a href="https://wa.me/" target="blank">
                     <img src="img/logo.jpg" alt="WhatsApp">
@@ -57,31 +91,17 @@
         </div>
         </section>
     </main>
-    <section class="imagenSeparacion1"></section>
-    <div class="imagenSeparacion">
-        <img src="./img/imagenSeparacion.webp" alt="ImagenSeparacion">
-  
-
-    </div>
-    
-    
-    <section class="Informacionsection">
-        <h2 class="texto_informacion">Información</h2>
-        <article  class="articulos">
-            <h3 class="articulos1 ">Articulos</h3>
-            </div>
-        </article>
-    </section>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-</body>
     <footer>
-        <h2>NutriLife</h2>
-        <ul>
-            <li>Contacto: correo@gmail.com </li>
-            <li>Telefono: 123456</li>
-            <li class="containerinst"> <img class="logoig" src="https://cdn-icons-png.flaticon.com/128/1384/1384063.png" alt="logoinst"></li>
-            <li class="containerfb"> <img class="logofb" src="https://static.vecteezy.com/system/resources/previews/018/930/476/non_2x/facebook-logo-facebook-icon-transparent-free-png.png" alt="logofb"></li>
-            <li class="containerx"> <img class="logox" src="https://graffica.ams3.digitaloceanspaces.com/2023/07/rQYXqS5v-F1ySdm9WYAIbjHo-1024x1024.jpeg" alt="logox"></li>
+      <ul>
+         <p class="footerN"> NutriLife</p>
+          <li>Contacto: correo@gmail.com </li>
+          <li>Telefono: 123456</li>
+          <div class="redes">
+          <li class="containerinst"> <img class="logoig" src="https://cdn-icons-png.flaticon.com/128/1384/1384063.png" alt="logoinst"></li>
+          <li class="containerfb"> <img class="logofb" src="https://static.vecteezy.com/system/resources/previews/018/930/476/non_2x/facebook-logo-facebook-icon-transparent-free-png.png" alt="logofb"></li>
+          <li class="containerx"> <img class="logox" src="https://graffica.ams3.digitaloceanspaces.com/2023/07/rQYXqS5v-F1ySdm9WYAIbjHo-1024x1024.jpeg" alt="logox"></li>
+        </div>
         </ul>
-    </footer>
+      </footer>
+  </body>
 </html>

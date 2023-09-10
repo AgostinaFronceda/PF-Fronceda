@@ -1,12 +1,17 @@
+//variables
 *{
     margin: 0;
     padding: 0;
 }
+body {
+    margin: 0;
+    padding: 0;
+}
 html{
-    font-size: 62,5%;
+    font-size: 62.5%;
     font-family: 'Roboto', sans-serif;
     font-family: 'Rufina', serif;
-    background: rgb(173, 216, 230); /* Azul suave para la paz */
+    background: rgb(173, 216, 230); 
 background: linear-gradient(90deg, rgb(173, 216, 230) 0%, rgb(144, 238, 144) 50%, rgb(60, 179, 113) 100%);
 }
 /* header {
@@ -31,52 +36,97 @@ text-align: center;
 height: 100%;
 width: 100%;
 padding: 10px;
-justify-content:space;
-text-align: center;
-justify-content:space-around;
-}
-.collapse navbar-collapse {
-    text-align: center;
-    justify-content:space-around;
-    align-items: space-evenly;
+justify-content:center;
 
-  }
-.div.container-fluid {
-    justify-content: space-evenly;
-    align-items: space-evenly;
+}
+
+.navbar-collapse{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+    width: auto;
 }
 .ul {
-    height: 100%;
     display: flex;
     justify-content:space-evenly;
-    align-items: center;
-    padding: 20px;
+    align-items: end;
+    padding: 10px;
+    flex-direction: row;
+    width: 100%;
 }
+
 .li{
     list-style: none;
     color: black;
+
+}
+
+.carousel-inner{
+    height: auto;
+    max-width: 100%;
+}
+.redes {
+    display: flex;
+    justify-content:flex-end;
+    margin-right: 20px;
+}
+
+.navbar.navbar-expand-lg{
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
 }
 .a{
+    &:hover{
+        color:rgb(190, 92, 108);
+    }
         color:black ;
         text-decoration: none;
         margin: 0 10px; 
         font-size: 1rem;
 }
-.h1{
+h1{
     text-align: center;
-    color: black;
+    color: #000000;
     font-size: 7rem;
 }
 .h2{
     color: black;
     font-size: 2rem;
 }
+
+.footerN {
+    font-size: 40px;
+    color: black;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.ul {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: end;
+    padding: 10px;
+    flex-direction: row;
+    width: 100%;
+}
+
+.li{
+    list-style: none;
+    color: black;
+
+}
 .introduccion{
+    display: flex;
     justify-content:center;
-    padding: 20px;
-    font-size: 20px;
+    align-items: center;
     padding-top: 100px;
     padding-bottom:50px ;
+    background-color: beige;
 }
 /* 
 .imagen {
@@ -85,13 +135,16 @@ justify-content:space-around;
     margin-right:5px;
     margin-top: 20px;
 } */
-.p {
-    font-size: 30px;
+.pe {
     display: flex;
-    text-align: center;
-    height: 100%;
-    padding: 10px;
-    padding-bottom: 30px;
+    justify-content:center;
+    align-items: center;
+    padding-bottom:50px ;
+    background-color: beige;
+}
+
+p {
+    font-size: 2rem;
 }
 .whatsapp {
     position: fixed;
@@ -118,14 +171,30 @@ justify-content:space-around;
     margin-top: 20px;
 }
 .imagenSeparacion {
-    height: 40%;
-    width: 40%;
+    height: 10%;
+    width: 10%;
 }
 .footer p,li,h2{
     color: black;
     text-align: left;
     line-height: 40px
 }
+footer ul {
+    list-style: none; 
+    padding: 0;
+    display: flex; 
+    justify-content: center; 
+  }
+  
+  footer ul li {
+    margin-right: 20px; 
+  }
+  
+  footer ul li img {
+    width: 30px; 
+    height: auto;
+  }
+  
 footer{
     margin-top: 80px;
     bottom: 0;
@@ -147,9 +216,26 @@ footer{
 .logox{
     height: 40px;
     width: 40px;
-    
-    
 }
+
+#carouselExampleFade {
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-item {
+    height: 100%; 
+    width: 100%;  
+}
+.carousel-item.active {
+    height: 100%; 
+    width: 100%; 
+}
+.d-block {
+    max-width: 300%; 
+    height: 100%;
+}
+
 /* .nueces{
     height: 150px;
     width: 150px;
@@ -190,7 +276,7 @@ footer{
     width: 250px;
 }
 .navcolor{
-    background: rgb(173, 216, 230); /* Azul suave para la paz */
+    background: rgb(173, 216, 230);
     background: linear-gradient(90deg, rgb(173, 216, 230) 0%, rgb(144, 238, 144) 50%, rgb(60, 179, 113) 100%);
 }
 /* PAGINA 3  */
