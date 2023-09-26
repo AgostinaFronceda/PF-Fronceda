@@ -13,76 +13,132 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <!-- main Css -->
     <link rel="stylesheet" href="../css/estilosHtml.css">
-</head>
-<!-- en el body va header(nav,ul,li),main,footer -->
+</head>        
 <body>
     <header class="header">
-        <nav class="header_nav">
-            <ul class="header_nav_ul">
-                <li class="header_nav_ul_li"><a href="../index.html">Inicio</a></li>
-                <li class="header_nav_ul_li"><a href="../pages/Pagina2.html">Productos</a></li>
-                <li class="header_nav_ul_li"><a href="../pages/Pagina3.html">Reseñas</a></li>
-                <li class="header_nav_ul_li"><a href="../pages/Pagina4.html">Sobre Nosotros</a></li>
-            </ul>
-        </nav>
+        <nav class="navbar navbar-expand-lg" class="navcolor">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html">NutriLife</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              </div>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/Pagina2.html">Productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/Pagina3.html">Reseñas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/Pagina4.html">Sobre Nosotros</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
-<body>
-    <main>
-        <section class="cards">
-            <h1 class="productostexto">PRODUCTOS</h1>
-            <div class="grid-layout">
-            <div class="productos P1">
-             <img class="P1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Walnuts_-_whole_and_open_with_halved_kernel.jpg/220px-Walnuts_-_whole_and_open_with_halved_kernel.jpg" alt="Nueces">
-            </div>
-            <div class="productos P2">
-                <img class="P2"src="https://www.lavanguardia.com/files/image_948_465/uploads/2021/03/05/604204064a61a.jpeg" alt="Almendras">
-            </div>
-            <div class="productos P3">
-                <img class="P2" src="https://d2r9epyceweg5n.cloudfront.net/stores/001/089/207/products/421-faf13184724e44e64e15858619175607-1024-1024.png" alt="Castañas" >
-            </div>
-            <div class="productos P4">
-                <img class="P1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Walnuts_-_whole_and_open_with_halved_kernel.jpg/220px-Walnuts_-_whole_and_open_with_halved_kernel.jpg" alt="Nueces">
-            </div>
-            </div>
-            <div class="productos P5">
-                <img class="P1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Walnuts_-_whole_and_open_with_halved_kernel.jpg/220px-Walnuts_-_whole_and_open_with_halved_kernel.jpg" alt="Nueces">
-            </div>
-            </div>
-            <div class="productos P6">
-                <img class="P1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Walnuts_-_whole_and_open_with_halved_kernel.jpg/220px-Walnuts_-_whole_and_open_with_halved_kernel.jpg" alt="Nueces">
-            </div>
-            </div>
-            <div class="productos P7">
-                <img class="P1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Walnuts_-_whole_and_open_with_halved_kernel.jpg/220px-Walnuts_-_whole_and_open_with_halved_kernel.jpg" alt="Nueces">
-            </div>
-            </div>
-            <div class="productos P8">
-                <img class="P1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Walnuts_-_whole_and_open_with_halved_kernel.jpg/220px-Walnuts_-_whole_and_open_with_halved_kernel.jpg" alt="Nueces">
-            </div>
-            </div>
-            <div class="productos P9">
-                Producto9
-            </div>
-            </div>
-            <div class="whatsapp">
-                <a href="https://wa.me/" target="_blank">
-                    <img src="img/logo.jpg" alt="WhatsApp">
-                </a>
-            </div>
-        </section>
 
-
-
-    </main>
+    <div class="gridlayout">
+        <div class="productos">
+            <img src="../img/productoventa1.jpg" class="card-img-top" alt="Nueces">
+            <div class="card-body">
+              <h5 class="card-title">Nueces</h5>
+              <p class="card-text">Nueces nutritivas, perfectas para complementar tu dieta y mejorar tu bienestar. Disfruta de su sabor y beneficios saludables en cada porción.</p>
+              <p>Precio por 100gr $110.00</p>
+              <a href="#" class="btn btn-primary">Comprar</a>
+            </div>
+          </div>
+            <div class="productos">
+                <img src="../img/productoventa2.jpg" class="card-img-top" alt="Almendras">
+                <div class="card-body">
+                  <h5 class="card-title">Almendras</h5>
+                  <p class="card-text">Almendras naturales ideales para enriquecer tu alimentación y promover un estilo de vida saludable. Disfruta de su exquisito sabor en cada porcion.</p>
+                  <p>Precio por 100gr $240.00</p>
+                  <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+                <div class="productos">
+                    <img src="../img/productoventa3.jpg" class="card-img-top" alt="Mani">
+                    <div class="card-body">
+                      <h5 class="card-title">Mani</h5>
+                      <p class="card-text">Maní natural, una elección inteligente para mejorar tu dieta y mantenerte saludable. Disfruta su delicioso sabor y aprovecha de sus beneficios</p>
+                      <p>Precio por 100gr $320.00</p>
+                      <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                  </div>
+                    <div class="productos">
+                        <img src="../img/productoventa4.jpg" class="card-img-top" alt="Avellanas">
+                        <div class="card-body">
+                          <h5 class="card-title">Avellanas</h5>
+                          <p class="card-text">Nuestras avellanas dan ese toque delicioso y versátil para tu alimentación. Perfectas para dar sabor y un toque saludable a tus comidas y snacks."</p>
+                          <p>Precio por 100gr $410.00</p>
+                          <a href="#" class="btn btn-primary">Comprar</a>
+                        </div> 
+                      </div>
+                        <div class="productos">
+                            <img src="../img/productoventa5.jpg" class="cardpasas" alt="Pasas">
+                            <div class="card-body">
+                              <h5 class="card-title">Pasas</h5>
+                              <p class="card-text">Un bocado dulce y energético para tus momentos de snack o tus recetas favoritas.</p>
+                              <p>Precio por 100gr $180.00</p>
+                              <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                          </div>
+                            <div class="productos">
+                                <img src="../img/productoventa6.jpg" class="carddati" alt="Datiles">
+                                <div class="card-body">
+                                  <h5 class="card-title">Datiles</h5>
+                                  <p class="card-text">Dulces y nutritivos, perfectos como snack o ingrediente para tus recetas.</p>
+                                  <p>Precio por 100gr $310.00</p>
+                                  <a href="#" class="btn btn-primary">Comprar</a>
+                                </div>
+                              </div>
+                                <div class="productos">
+                                  <img src="../img/productoventa7.jpg" class="card-img-top" alt="Pistachos">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Pistachos</h5>
+                                    <p class="card-text">Ideales como snack o ingrediente para tus recetas.Altos en nutrientes escenciales.</p>
+                                    <p>Precio por 100gr $230.00</p>
+                                    <a href="#" class="btn btn-primary">Comprar</a>
+                                  </div>
+                                </div>
+                                  <div class="productos" >
+                                    <img src="../img/productoventa8.jpg" class="card-img-top" alt="Semillas de girasol">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Semillas de girasol</h5>
+                                      <p class="card-text">Una forma natural de agregar mas proteina a tu dieta, perfectos como snack o ingrediente para tus recetas.</p>
+                                      <p>Precio por 100gr $299.00</p>
+                                      <a href="#" class="btn btn-primary">Comprar</a>
+                                    </div>
+                                  </div>
+                                    <div class="productos">
+                                      <img src="../img/productoventa9.jpg" class="cardcastañas" alt="Castañas de caju">
+                                      <div class="card-body">
+                                        <h5 class="card-title">Castañas de caju</h5>
+                                        <p class="card-text">Nutritivo snack saludable para tu día a dia, tambien se pueden usar en recetas o consumirlo diariamente.</p>
+                                        <p>Precio por 100gr $270.00</p>
+                                        <a href="#" class="btn btn-primary">Comprar</a>
+                                      </div> 
+                                    </div>      
+                                    </div>                 
     <footer>
-        <h2>NutriLife</h2>
-        <ul>
-            <li>Contacto: correo@gmail.com </li>
-            <li>Telefono: 123456</li>
+        <h2> NutriLife</h2>
+        <div class="contactos">
+          <ul>
+            <li>Correo: Nutrilife@gmail.com </li>
+            <li>Celular: +54 261 213 646</li>
+            <li>Telefono: 452-5424</li>
+          </ul>
+        </div>
+            <div class="redes">
             <li class="containerinst"> <img class="logoig" src="https://cdn-icons-png.flaticon.com/128/1384/1384063.png" alt="logoinst"></li>
             <li class="containerfb"> <img class="logofb" src="https://static.vecteezy.com/system/resources/previews/018/930/476/non_2x/facebook-logo-facebook-icon-transparent-free-png.png" alt="logofb"></li>
             <li class="containerx"> <img class="logox" src="https://graffica.ams3.digitaloceanspaces.com/2023/07/rQYXqS5v-F1ySdm9WYAIbjHo-1024x1024.jpeg" alt="logox"></li>
-        </ul>
-    </footer>
+          </div>
+        </footer>
 </body>
-</html>

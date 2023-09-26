@@ -1,0 +1,62 @@
+.gridlayout {
+    background-color: #f8e1df;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+    width: 100%;
+    margin-top: 0 auto;
+    justify-content: space-evenly;
+
+
+}
+.productos{
+    border: 4px solid black;
+    text-align:center;
+    margin: 15px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding: 20px;
+
+}
+.card-title{
+    margin-top: 10px;
+}
+.cardpasas {
+   height: 180px;
+   width: 250px;
+}
+.carddati {
+    height: 180px;
+    width: 250px;
+    margin-bottom: 10px;
+}
+.cardcastañas {
+    height: 150px;
+    width: 250px;
+}
+.productos p {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #333;
+    text-align: left;
+  }
+
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #dda859;
+  }
+
+  .productos {
+    width: 30rem;
+    height: 39rem;
+  }
+  

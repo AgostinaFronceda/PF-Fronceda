@@ -1,7 +1,45 @@
-@use 'partials/index.html';
-.footerN {
-    font-size: 440px;
-    color: red;
-    align-items: center;
-    justify-content: center;
+.contactos{
+    color: black;
+    text-align: left;
+    font-size: 15px;
 }
+footer ul {
+    list-style: none; 
+    padding: 0;
+    display: flex; 
+    justify-content:end
+  }
+  
+  footer ul li {
+    margin-right: 20px; 
+  }
+ footer{
+
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     background-color: #e0c2c0;
+     padding: 10px;
+ }
+ .h2 {
+     align-items: center;
+ }
+
+.redes, li {
+     list-style: none;
+     display: flex;
+     margin-left: 50px;
+ }
+
+ .logoig{
+     width: 40px;
+    height: auto;
+ }
+ .logofb {
+     width: 45px;
+     height: auto;
+ }
+ .logox{
+     width: 40px;
+     height: auto;
+ }
