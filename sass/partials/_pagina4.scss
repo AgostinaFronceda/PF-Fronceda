@@ -1,0 +1,26 @@
+.containerr {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
+    justify-items: center;
+    align-items: stretch;
+    margin-bottom: 10px;
+}
+.img {
+    float:left;
+    height: 100%;
+    width: auto;
+}
+.classh1 {
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.contenedor-imagen {
+    width: 400px; 
+    height: 300px; 
+    background-image: url("../img/icono.jpg"); 
+    background-size: 100% 100%;
+    background-position: center bottom;
+  }
+  
