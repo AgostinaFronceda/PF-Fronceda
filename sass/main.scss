@@ -1,11 +1,11 @@
 //variables  $sizeL: 3 rem
 @use 'partials/footer';
-@use 'partials/index';
 @use 'partials/navbar';
 @use 'partials/carrusel';
-@use 'partials/pagina2';
-@use 'partials/pagina3';
-@use 'partials/pagina4';
+@use 'partials/pagina2Productos';
+@use 'partials/pagina3Reseñas';
+@use 'partials/pagina4Informacion';
+@use 'partials/mediaqueries';
 
 *{
     margin: 0;
@@ -68,7 +68,6 @@ h1{
     display: flex;
     justify-content:center;
     align-items: center;
-    padding-bottom:50px ;
     background-color: beige;
 }
 
@@ -105,26 +104,24 @@ p {
     width: 150px;
     margin-top: 20px;
 }
-
-/* .nueces{
-    height: 150px;
-    width: 150px;
-    margin-top: 20px;
-} */
 /* PAGINA 2  */
 .productostexto{
     font-size: 3rem;
 }
-.P1 {
-    height: 250px;
-    width: 250px;
+/* media */
+body {
+  font-size: 16px;
 }
-.P2 {
-    height: 250px;
-    width: 250px;
-}
-.P3 {
-    height: 250px;
-    width: 250px;
-}
-/* PAGINA 3  */
+
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+    footer {
+        margin-top: 0;
+        padding-top: 0;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        height: auto;
+    }
+}    

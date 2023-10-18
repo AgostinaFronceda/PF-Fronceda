@@ -15,6 +15,7 @@
 .classh1 {
     margin-top: 20px;
     margin-bottom: 60px;
+    text-decoration: underline;
 }
 .contenedor-imagen {
     width: 400px; 
@@ -23,4 +24,18 @@
     background-size: 100% 100%;
     background-position: center bottom;
   }
-  
+  body {
+    font-size: 16px;
+  }
+  @media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+    footer {
+        margin-top: 0;
+        padding-top: 0;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        height: auto;
+    }
+}    

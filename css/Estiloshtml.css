@@ -105,6 +105,10 @@ footer {
   width: 100%;
 }
 
+.h1pagina2 {
+  text-decoration: underline;
+}
+
 .gridlayout {
   background-color: #f8e1df;
   display: grid;
@@ -171,6 +175,22 @@ button:hover {
 }
 
 body {
+  font-size: 16px;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+  footer {
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    height: auto;
+  }
+}
+body {
   background-color: #f8e1df;
 }
 
@@ -196,8 +216,25 @@ body {
 
 .rese {
   background-color: #f8e1df;
+  text-decoration: underline;
 }
 
+body {
+  font-size: 16px;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+  footer {
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    height: auto;
+  }
+}
 .containerr {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -217,6 +254,7 @@ body {
 .classh1 {
   margin-top: 20px;
   margin-bottom: 60px;
+  text-decoration: underline;
 }
 
 .contenedor-imagen {
@@ -227,6 +265,40 @@ body {
   background-position: center bottom;
 }
 
+body {
+  font-size: 16px;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+  footer {
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    height: auto;
+  }
+}
+/*dispositivos móviles*/
+@media (max-width: 767px) {
+  body {
+    font-size: 14px;
+  }
+}
+/*tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+  body {
+    font-size: 16px;
+  }
+}
+/* escritorio */
+@media (min-width: 992px) {
+  body {
+    font-size: 18px;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -293,7 +365,6 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 50px;
   background-color: beige;
 }
 
@@ -334,31 +405,27 @@ p {
   margin-top: 20px;
 }
 
-/* .nueces{
-    height: 150px;
-    width: 150px;
-    margin-top: 20px;
-} */
 /* PAGINA 2  */
 .productostexto {
   font-size: 3rem;
 }
 
-.P1 {
-  height: 250px;
-  width: 250px;
+/* media */
+body {
+  font-size: 16px;
 }
 
-.P2 {
-  height: 250px;
-  width: 250px;
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+  footer {
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    height: auto;
+  }
 }
-
-.P3 {
-  height: 250px;
-  width: 250px;
-}
-
-/* PAGINA 3  */
 
 /*# sourceMappingURL=estilosHtml.css.map */
