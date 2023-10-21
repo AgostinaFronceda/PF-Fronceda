@@ -7,6 +7,7 @@ body {
     gap: 10px;
     margin-bottom: 20px;
     background-color: #f8e1df;
+    margin-bottom: 62px;
   }
   .reseña img{
     width: 80px;
@@ -17,23 +18,9 @@ body {
 }
 .informacion {
     margin-top: 30px;
+    margin-bottom: 30px
 }
 .rese {
     background-color:#f8e1df;
     text-decoration: underline;
 }
-body {
-    font-size: 16px;
-  }
-  @media (max-width: 600px) {
-    body {
-        font-size: 14px;
-    }
-    footer {
-        margin-top: 0;
-        padding-top: 0;
-        margin-bottom: 0;
-        padding-bottom: 0;
-        height: auto;
-    }
-}    

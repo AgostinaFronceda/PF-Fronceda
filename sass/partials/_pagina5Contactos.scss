@@ -1,0 +1,17 @@
+.textocontacto 
+.classh2{
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+.containerp5 {
+    display: flex;
+    grid-template-columns: 1fr 200px;
+    grid-template-rows: 2fr 100px;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    justify-items: stretch;
+    align-items: stretch;
+    padding: 20px;
+    margin-bottom: 70px;
+ }
+ 

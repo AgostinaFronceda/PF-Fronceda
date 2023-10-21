@@ -7,28 +7,29 @@ footer ul {
     list-style: none; 
     padding: 0;
     display: flex; 
-    justify-content:end
+    justify-content:flex-end
   }
   
   footer ul li {
     margin-right: 20px; 
   }
  footer{
-
      display: flex;
      justify-content: space-between;
      align-items: center;
      background-color: #e0c2c0;
      padding: 10px;
+     bottom:0; 
+     width: 100%;
+     position: fixed;
  }
  .h2 {
      align-items: center;
  }
-
 .redes, li {
      list-style: none;
      display: flex;
-     margin-left: 50px;
+     margin-left: 70px;
  }
 
  .logoig{

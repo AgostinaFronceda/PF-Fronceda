@@ -1,11 +1,10 @@
 .containerr {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 10px;
+    grid-template-columns: 0fr 1fr;
+    grid-column-gap: 2%;
     grid-row-gap: 20px;
     justify-items: center;
     align-items: stretch;
-    margin-bottom: 10px;
 }
 .img {
     float:left;
@@ -14,7 +13,7 @@
 }
 .classh1 {
     margin-top: 20px;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
     text-decoration: underline;
 }
 .contenedor-imagen {
@@ -23,19 +22,11 @@
     background-image: url("../img/icono.jpg"); 
     background-size: 100% 100%;
     background-position: center bottom;
+    padding: 30%;
+    margin-left: 20%;
   }
-  body {
-    font-size: 16px;
+
+  .informaciontexto {
+    margin-bottom: 60px;
+    margin-left: 10%;
   }
-  @media (max-width: 600px) {
-    body {
-        font-size: 14px;
-    }
-    footer {
-        margin-top: 0;
-        padding-top: 0;
-        margin-bottom: 0;
-        padding-bottom: 0;
-        height: auto;
-    }
-}    
